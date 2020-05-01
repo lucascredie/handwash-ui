@@ -1,0 +1,68 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Patrick Hand', cursive;
+  background: rgb(245, 250, 255);
+}
+h1 {
+  margin: 20px;
+  margin-top: 0px;
+  font-size: 38px;
+  color: rgba(71, 135, 255, 0.945);
+}
+section {
+  text-align: center;
+  background: rgb(241, 247, 255);
+  max-width: 460px;
+  margin: 50px auto;
+  padding: 40px;
+  height: 200px;
+  box-shadow: 0px 6px 25px -8px rgba(123, 152, 206, 0.75);
+  border-radius: 3px;
+  margin-bottom: 0px;
+}
+
+input {
+  margin: 15px 0px;
+  padding: 3px 20px;
+  border: none;
+  border: 3px solid transparent;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 25px;
+  color: rgba(115, 164, 255, 0.75);
+}
+input:focus {
+  outline: none;
+  border: 3px solid rgba(115, 164, 255, 0.75);
+  transition: 300ms;
+}
+
+p {
+  margin: 0px 5px;
+  color: rgba(95, 145, 238, 0.75);
+}
+button {
+padding: 0px 15px;
+margin-left: 20px;
+border: none;
+border-radius: 50px;
+color: rgb(148, 186, 255);
+background: rgb(78, 140, 255);
+text-shadow: 1px 0.5px rgb(61, 104, 184), -0.5px -.5px rgb(217, 230, 255);
+font-family: 'Patrick Hand', cursive;
+font-size: 22px;
+border: 5px solid rgb(60, 129, 255);
+transition: 300ms;
+cursor: pointer;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  transition: 300ms;
+}
+
+div {
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+}
